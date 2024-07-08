@@ -23,18 +23,20 @@ Monthly Income
 Total Working Years
 Years at Company
  # Data Cleaning and Preprocessing 
- Data cleaning steps include handling missing values, encoding categorical variables, and ensuring data consistency. This ensures accurate analysis and meaningful insights.
+Data cleaning steps include handling missing values, encoding categorical variables, and ensuring data consistency. This ensures accurate analysis and meaningful insights.
  Analysis and Results 
-   # 1. Correlation Analysis
-  A strong positive correlation (77%) was found between monthly income and total working years.
-  A 50% positive correlation between age and monthly income.
-  A 68% correlation between age and total working years.
-  # 2. Scatterplots and Pair Plots 
-  Visualizations confirm the positive correlations, showing clear trends.
-  # 3. Hypothesis Testing 
-  A two-sample t-test indicates younger employees are more likely to be laid off, countering claims of ageism.
-  # 4. Linear Regression 
-  A model predicts monthly income based on age and total working years, with about 60% of the variation explained by these factors.
+  # Correlation Analysis
+ My first step was to examine the correlations between key variables:
+ A strong positive correlation (77%) was found between monthly income and total working years. This suggests that experience significantly influences earnings at IBM.
+ A 50% positive correlation between age and monthly income indicates that older employees tend to earn more.
+ A 68% correlation between age and total working years highlights the intuitive relationship between these two factors. 
+ These correlations provided a solid foundation for further analysis, revealing important trends in the data.
+  # Scatterplots and Pair Plots 
+ Next, I  used scatterplots and pair plots to visualize these relationships: The positive correlations observed in the previous step were clearly visible in these visualizations, confirming our initial findings. These plots also helped identify potential outliers and patterns that might not be immediately apparent from the raw data.
+ #  Hypothesis Testing
+ To address the question of ageism, I conducted a two-sample t-test: Surprisingly, the results indicated that younger employees are more likely to be laid off, countering claims of ageism. This finding suggests that factors other than age may be driving attrition among younger employees.
+# Linear Regression 
+ Finally, we built a linear regression model to predict monthly income based on age and total working years: The model explained about 60% of the variation in monthly income, indicating that these two factors are strong predictors of earnings. This predictive power provides a valuable tool for forecasting income and understanding the factors that influence it.
   # Visualizations
    # Boxplots and Scatter Plots: 
   Boxplots compare the age distribution of laid-off versus retained employees, showing younger employees are more frequently laid off.
