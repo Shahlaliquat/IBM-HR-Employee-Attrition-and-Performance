@@ -1,9 +1,8 @@
 # IBM-HR-Employee-Attrition-and-Performance
-# Overview 
 This project provides a detailed analysis of employee attrition at IBM, aiming to uncover key factors influencing turnover and its impact on performance. Utilizing Python, the analysis explores various statistical methods and visualizations to offer insights and actionable recommendations.
  # Business Questions
 The primary goal of this analysis is to model employee attrition and identify the dominant factors contributing to employee turnover. Specifically, the project addresses the following business questions:
- 1. What is the extent of correlation between key demographic factors and how do they collectively impact the company's operations and performance?2 .
+ 1. What is the extent of correlation between key demographic factors and how do they collectively impact the company's operations and performance?
  2. How does the relationship between age and total working years impact the monthly income?
  3. Does ageism play an important role in employees' layoffs?
  4. Does higher education level affect employees' daily rate in specific departments?
@@ -20,15 +19,15 @@ The primary goal of this analysis is to model employee attrition and identify th
   A 68% correlation between age and total working years.
   # 2. Scatterplots and Pair Plots 
   Visualizations confirm the positive correlations, showing clear trends.
-   # 3. Hypothesis Testing 
-   A two-sample t-test indicates younger employees are more likely to be laid off, countering claims of ageism.
-   # 4. Linear Regression 
-   A model predicts monthly income based on age and total working years, with about 60% of the variation explained by these factors.
+  # 3. Hypothesis Testing 
+  A two-sample t-test indicates younger employees are more likely to be laid off, countering claims of ageism.
+  # 4. Linear Regression 
+  A model predicts monthly income based on age and total working years, with about 60% of the variation explained by these factors.
   # Visualizations
    # Boxplots and Scatter Plots: 
   Boxplots compare the age distribution of laid-off versus retained employees, showing younger employees are more frequently laid off.
   Scatter plots reveal the relationship between total working years and monthly income, particularly in the research and development department.
-  # Key Findings 
+# Key Findings 
 Employee age and total working years are strong predictors of monthly income.
 Younger employees are more likely to be laid off, challenging claims of ageism.
 Higher education levels correlate with higher daily rates, especially in the research and development department.
