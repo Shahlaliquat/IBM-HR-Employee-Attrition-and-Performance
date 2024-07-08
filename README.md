@@ -1,5 +1,5 @@
 # IBM-HR-Employee-Attrition-and-Performance
-This project provides a detailed analysis of employee attrition at IBM, aiming to uncover key factors influencing turnover and its impact on performance. Utilizing Python, the analysis explores various statistical methods and visualizations to offer insights and actionable recommendations.
+Employee attrition is a significant challenge for many organizations, and IBM is no exception. Understanding the factors that lead to employee turnover can provide valuable insights into improving retention and performance. In this project, I deeply researched IBM's HR data using Python to uncover patterns and trends that can help address these issues. Through a combination of statistical analysis and data visualization, we aim to answer critical business questions and provide actionable recommendations.
  # Business Questions
 The primary goal of this analysis is to model employee attrition and identify the dominant factors contributing to employee turnover. Specifically, the project addresses the following business questions:
  1. What is the extent of correlation between key demographic factors and how do they collectively impact the company's operations and performance?
@@ -9,7 +9,19 @@ The primary goal of this analysis is to model employee attrition and identify th
  5. To what extent does the duration of an employee's tenure with the company influence their likelihood of leaving, and how does this finding impact our attrition management strategies?
  6. How can we predict the monthly income based on age and total working years?
  # Dataset
- The dataset used in this project is provided by IBM and contains 1470 rows with 35 columns, including attributes such as age, attrition, daily rate, education, gender, monthly income, total working years, and years at the company.
+The dataset used in this project is an augmented version created by real IBM data scientists, though it's not 100% real data. This dataset, available in CSV format, is a comprehensive collection of employee information with 1470 rows and 35 columns. Each row represents an individual employee, providing a wealth of features that allow for a detailed analysis of various factors influencing employee attrition. 
+Key attributes in this dataset include:
+Age
+Attrition
+Daily Rate
+Education
+Employee Number
+Gender
+Hourly Rate:
+Job Role
+Monthly Income
+Total Working Years
+Years at Company
  # Data Cleaning and Preprocessing 
  Data cleaning steps include handling missing values, encoding categorical variables, and ensuring data consistency. This ensures accurate analysis and meaningful insights.
  Analysis and Results 
